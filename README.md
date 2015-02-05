@@ -67,5 +67,5 @@ You can configure [Carrot<sup>2</sup>](http://project.carrot2.org) to use the pr
 
 ![Configure Carrot<sup>2</sup> Workbench](screenshots/CarrotWorkbenchConfiguration.png)
 
-For futhere information about how to configure Solr with Carrot<sup>2</sup> refer to [](http://carrot2.github.io/solr-integration-strategies/carrot2-3.8.0/index.html)
+For futhere information about how to configure Solr with Carrot<sup>2</sup> refer to [http://carrot2.github.io/solr-integration-strategies/carrot2-3.8.0/index.html](http://carrot2.github.io/solr-integration-strategies/carrot2-3.8.0/index.html)
 
