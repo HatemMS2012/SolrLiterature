@@ -23,7 +23,7 @@ To add new document to the index, you can the Post tool provided by Solr. This t
 + `java -Dfile.encoding=UTF8 -Dauto=yes -Drecursive=yes  -Durl=http://localhost:8983/solr/core0/update -jar post.jar "myDocs"`
 
 ##Indexed File Structure
-Documents that can be added to index must be provieded in XML format. The fields that can be idexed are defined in the **schema.xml** file. A sample input file is provieded here:
+Documents that can be added to the index must be provieded in XML format. The indexed are defined in the **schema.xml** file. A sample input file is provieded here:
 
 ```XML
 <?xml version="1.0" encoding="UTF-8"?>
