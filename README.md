@@ -11,5 +11,10 @@ To install this Solr instance, download the project into a dicrector of your cho
 + `java -jar start.jar` to enable clustering the search result type instead: `java -Dsolr.clustering.enabled=true -jar start.jar`
 + Go to: [http://localhost:8983/solr](http://localhost:8983/solr)
 
+##Query
+The index is defined under the core "core0". To query the instance use the standard Solr query syntax. You can post the query from the command line using curl or directly in your browser. For example, to query articles about "fish" type the following:
+
++ In your command line: `curl http://localhost:8983/solr/core0/select/?q=fish`
++ In your browser: `http://localhost:8983/solr/core0/select/?q=fish`
 
 
