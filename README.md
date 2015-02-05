@@ -61,6 +61,8 @@ A sample XML file that can be added to provided Solr instance is given here:
 </add>
 ```
 
+##Configuring the Instance with Carrot^2
+
 
 
 
