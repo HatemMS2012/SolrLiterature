@@ -64,5 +64,5 @@ A sample XML file that can be added to provided Solr instance is given here:
 ##Configuring the Instance with Carrot<sup>2</sup>
 
 You can configure [Carrot<sup>2</sup>](http://project.carrot2.org) to use the provided Solr instance. For example [Carrot<sup>2</sup> Workbench](http://project.carrot2.org/download.html) can be configured as shown in the following screenshot:
-![Configure Carrot<sup>2</sup> Workbench](screenshots/CarrotWorkbenchConfig.png)
+![Configure Carrot<sup>2</sup> Workbench](screenshots/CarrotWorkbenchConfiguration.png)
 
