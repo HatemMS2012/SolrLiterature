@@ -22,6 +22,42 @@ To add new document to the index, you can the Post tool provided by Solr. This t
 
 + `java -Dfile.encoding=UTF8 -Dauto=yes -Drecursive=yes  -Durl=http://localhost:8983/solr/core0/update -jar post.jar "myDocs"`
 
+##Indexed File Structure
+Documents that can be added to index must be provieded in XML format. The fields that can be idexed are defined in the **schema.xml** file. A sample input file is provieded here:
+
+```XML
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+<doc>
+<field name="id">documentID</field>
+<field name="source-file">The location of the indexed file</field>
+<field name="xml-file">The location of the XML file of the indexed file</field>
+<field name="language">Language of the document</field>
+<field name="auto-keywords">comma separated list of the keywords/topics corresponding to the indexed article</field>
+<field name="article-title">title of the article</field>
+<field name="abstract">Abstract of the articel</field>
+<field name="author">Authors of the article</field>
+
+<!-- List of identified named entities: LOCATION, PERSON, DATE, ORGANIZATION -->
+<field name="ORGANIZATION">Organisation 1</field>
+<field name="ORGANIZATION">Organisation 2</field
+<field name="LOCATION">Location 1</field><field name="LOCATION">Alaska</field>
+<field name="LOCATION">Location 2</field><field name="DATE">spring</field>
+<field name="LOCATION">Location 3</field><field name="DATE">spring</field>
+<field name="DATE">1965</field><field name="DATE">Date 1</field>
+<field name="DATE">1970</field><field name="DATE">Date 2</field>
+<field name="PERSON">Person 1</field>
+<field name="PERSON">Person 2</field>
+<field name="PERSON">Person 3</field>
+
+<field name="content">The content of the article (all sections, paragraphs, ... </field>
+<field name="reference">Referenced article 1</field>
+<field name="reference">Referenced article 1</field>
+<field name="reference">Referenced article 1</field>
+<field name="reference">Referenced article 1</field>
+</doc>
+</add>
+```
 
 
 
