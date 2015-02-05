@@ -43,11 +43,11 @@ A sample XML file that can be added to provided Solr instance is given here:
 <!-- List of identified named entities: LOCATION, PERSON, DATE, ORGANIZATION -->
 <field name="ORGANIZATION">Organisation 1</field>
 <field name="ORGANIZATION">Organisation 2</field
-<field name="LOCATION">Location 1</field><field name="LOCATION">Alaska</field>
-<field name="LOCATION">Location 2</field><field name="DATE">spring</field>
-<field name="LOCATION">Location 3</field><field name="DATE">spring</field>
-<field name="DATE">1965</field><field name="DATE">Date 1</field>
-<field name="DATE">1970</field><field name="DATE">Date 2</field>
+<field name="LOCATION">Location 1</field>
+<field name="LOCATION">Location 2</field>
+<field name="LOCATION">Location 3</field>
+<field name="DATE">Date 1</field>
+<field name="DATE">Date 2</field>
 <field name="PERSON">Person 1</field>
 <field name="PERSON">Person 2</field>
 <field name="PERSON">Person 3</field>
