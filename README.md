@@ -18,11 +18,11 @@ For example, to query articles about "fish" type the following:
 + In your browser: `http://localhost:8983/solr/core0/select/?q=fish`
 
 ##Adding new documents to the index
-To add new document to the index, you can use the “post” tool provided by Solr. This corresponding jar file **"post.jar"** can be found in **"/MFNLiteratureApp/posttool/"**. Note that the added documents must be compatible with the indexing schema as defined in **"/MFNLiteratureApp/solr/HJDcollection/conf/schema.xml"** (more details below). Suppose that the new documents are stored in a directory called "myDocs". The corresponding command is:
+To add new document to the index, you can use the “post” tool provided by Solr. This corresponding jar file **"post.jar"** can be found in [**/MFNLiteratureApp/posttool/**](/MFNLiteratureApp/posttool/). Note that the added documents must be compatible with the indexing schema as defined in [**/MFNLiteratureApp/solr/HJDcollection/conf/schema.xml**](/MFNLiteratureApp/solr/HJDcollection/conf/schema.xml) (more details below). Suppose that the new documents are stored in a directory called "myDocs". The corresponding command is:
 
 + `java -Dfile.encoding=UTF8 -Dauto=yes -Drecursive=yes  -Durl=http://localhost:8983/solr/core0/update -jar post.jar "myDocs"`
 
-##Indexed File Structure
+##Structure of indexed documents
 Documents that can be added to the index must be in XML format. The indexed field are defined in the **schema.xml** file. To extract information from PDF articles according the defined scheme, a PDF extraction tool is provided [here](https://github.com/HatemMS2012/PDFExtractionTool).
 The following XML snippet shows the general structure of an indexable document:
 
@@ -60,7 +60,7 @@ The following XML snippet shows the general structure of an indexable document:
 </add>
 ```
 
-##Configuring the Instance with Carrot<sup>2</sup>
+##Configuring the Solr instance with Carrot<sup>2</sup>
 
 You can configure [Carrot<sup>2</sup>](http://project.carrot2.org) to use the provided Solr instance. For example [Carrot<sup>2</sup> Workbench](http://project.carrot2.org/download.html) can be configured as shown in the following screenshot:
 
