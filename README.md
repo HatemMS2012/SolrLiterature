@@ -3,7 +3,7 @@
 This project contains a distribution of Apache Solr 4.10.2 with an index of documents on scientific articles from the biology domain. The configuration of this instance and the corresponding index are found in the directory [**MFNLiteratureApp**](/MFNLiteratureApp).
 
 
-##Installation Instructions under Windows
+##Installation instructions under Windows
 To install this Solr instance, download the project into a directory of your choice and in the command line type the following:
 + `cd \`
 + `cd INSTANCE-DIR`
