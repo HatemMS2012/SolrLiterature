@@ -1,4 +1,4 @@
-#Apache Solr Instance for Scientific Article Indexing
+#Solr Instance for Scientific Article Indexing
 
 This project contains a distribution of Apache Solr 4.10.2 with an index of documents on scientific articles from the biology domain. The configuration of this instance and the corresponding index are found in the directory [**MFNLiteratureApp**](/MFNLiteratureApp).
 
