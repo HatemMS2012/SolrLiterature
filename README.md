@@ -12,7 +12,7 @@ To install this Solr instance, download the project into a directory of your cho
 + Go to: [http://localhost:8983/solr](http://localhost:8983/solr)
 
 ##Query
-The index is defined under the core "core0" see the solr.xml in ## SolrLiterature/MFNLiteratureApp/solr##. To query the instance use the standard Solr query syntax. You can post the query from the command line using [cURL]( http://curl.haxx.se/docs/manpage.html) or by directly typing in your browser. 
+The index is defined under the core "core0" see the solr.xml in **SolrLiterature/MFNLiteratureApp/solr**. To query the instance use the standard Solr query syntax. You can post the query from the command line using [cURL](http://curl.haxx.se/docs/manpage.html) or by directly typing in your browser. 
 For example, to query articles about "fish" type the following:
 + In your command line: `curl http://localhost:8983/solr/core0/select/?q=fish`
 + In your browser: `http://localhost:8983/solr/core0/select/?q=fish`
