@@ -23,7 +23,7 @@ To add new document to the index, you can use the “post” tool provided by So
 + `java -Dfile.encoding=UTF8 -Dauto=yes -Drecursive=yes  -Durl=http://localhost:8983/solr/core0/update -jar post.jar "myDocs"`
 
 ##Structure of indexed documents
-Documents that can be added to the index must be in XML format. The indexed field are defined in the **schema.xml** file. To extract information from PDF articles according the defined scheme, a PDF extraction tool is provided [here](https://github.com/HatemMS2012/PDFExtractionTool).
+Documents that can be added to the index must be in XML format. The indexed field are defined in the [**schema.xml**](/MFNLiteratureApp/solr/HJDcollection/conf/schema.xml) file. To extract information from PDF articles according the defined scheme, a PDF extraction tool is provided [here](https://github.com/HatemMS2012/PDFExtractionTool).
 The following XML snippet shows the general structure of an indexable document:
 
 ```XML
